@@ -7,12 +7,18 @@ let second_Number = Number(prompt('Please choose another number...'))
 
 if(first_Number<second_Number) {
 
-    console.log(second_Number);
+    console.log(`The highest value is : ${second_Number}`);
+    
+}
+
+else if (first_Number=second_Number){
+
+    console.log(`The numbers are equals, retry`);
     
 }
  
 else if (first_Number>second_Number) {
 
-    console.log(first_Number);
+    console.log(`The highest value is : ${first_Number}`);
     
 }

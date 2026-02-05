@@ -11,13 +11,15 @@ if(first_Number<second_Number) {
     
 }
 
-else if (first_Number=second_Number){
+else if (first_Number === second_Number) {
 
     console.log(`The numbers are equals, retry`);
     
 }
  
-else if (first_Number>second_Number) {
+else {
+
+     first_Number>second_Number
 
     console.log(`The highest value is : ${first_Number}`);
     

@@ -4,9 +4,9 @@
 
 
 let somma = 0
-let numero 
 
-for(i = 0; i < 10; i++)
+
+for(let i = 0; i < 10; i++)
 
     if ( i <= 10) {
 
